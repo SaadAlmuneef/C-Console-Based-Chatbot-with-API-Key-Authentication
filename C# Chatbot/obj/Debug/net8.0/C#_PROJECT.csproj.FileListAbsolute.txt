@@ -1,0 +1,17 @@
+C:\Users\ABS\source\repos\C#_PROJECT\C#_PROJECT\bin\Debug\net8.0\C#_PROJECT.exe
+C:\Users\ABS\source\repos\C#_PROJECT\C#_PROJECT\bin\Debug\net8.0\C#_PROJECT.deps.json
+C:\Users\ABS\source\repos\C#_PROJECT\C#_PROJECT\bin\Debug\net8.0\C#_PROJECT.runtimeconfig.json
+C:\Users\ABS\source\repos\C#_PROJECT\C#_PROJECT\bin\Debug\net8.0\C#_PROJECT.dll
+C:\Users\ABS\source\repos\C#_PROJECT\C#_PROJECT\bin\Debug\net8.0\C#_PROJECT.pdb
+C:\Users\ABS\source\repos\C#_PROJECT\C#_PROJECT\obj\Debug\net8.0\C#_PROJECT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABS\source\repos\C#_PROJECT\C#_PROJECT\obj\Debug\net8.0\C#_PROJECT.AssemblyInfoInputs.cache
+C:\Users\ABS\source\repos\C#_PROJECT\C#_PROJECT\obj\Debug\net8.0\C#_PROJECT.AssemblyInfo.cs
+C:\Users\ABS\source\repos\C#_PROJECT\C#_PROJECT\obj\Debug\net8.0\C#_PROJECT.csproj.CoreCompileInputs.cache
+C:\Users\ABS\source\repos\C#_PROJECT\C#_PROJECT\obj\Debug\net8.0\C#_PROJECT.dll
+C:\Users\ABS\source\repos\C#_PROJECT\C#_PROJECT\obj\Debug\net8.0\refint\C#_PROJECT.dll
+C:\Users\ABS\source\repos\C#_PROJECT\C#_PROJECT\obj\Debug\net8.0\C#_PROJECT.pdb
+C:\Users\ABS\source\repos\C#_PROJECT\C#_PROJECT\obj\Debug\net8.0\C#_PROJECT.genruntimeconfig.cache
+C:\Users\ABS\source\repos\C#_PROJECT\C#_PROJECT\obj\Debug\net8.0\ref\C#_PROJECT.dll
+C:\Users\ABS\source\repos\C#_PROJECT\C#_PROJECT\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\ABS\source\repos\C#_PROJECT\C#_PROJECT\obj\Debug\net8.0\C#_PROJECT.csproj.AssemblyReference.cache
+C:\Users\ABS\source\repos\C#_PROJECT\C#_PROJECT\obj\Debug\net8.0\C#_PROJECT.csproj.Up2Date
