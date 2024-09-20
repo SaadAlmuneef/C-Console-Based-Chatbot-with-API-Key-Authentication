@@ -15,10 +15,9 @@ class Program
 
     static async Task Main(string[] args)
     {
-        // Display main menu
         while (true)
         {
-            Console.Clear(); // Clear the console
+            Console.Clear();  
             Console.WriteLine("1. Login");
             Console.WriteLine("2. How to get an API key");
             Console.WriteLine("3. View logs");
@@ -46,8 +45,8 @@ class Program
 
     private static async Task HandleLogin()
     {
-        Console.Clear(); // Clear the console
-        // Ask the user for the passcode
+        Console.Clear(); 
+       
         Console.Write("Enter passcode: ");
         string enteredPasscode = Console.ReadLine();
 
@@ -69,7 +68,6 @@ class Program
             return;
         }
 
-        // Set the valid API key in the request headers
         client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
         Console.WriteLine("API key validated successfully.");
         LogLoginAttempt("Login successful", apiKey);
@@ -102,14 +100,14 @@ class Program
 
     private static void ShowApiKeyInstructions()
     {
-        Console.Clear(); // Clear the console
+        Console.Clear();
         Console.WriteLine("To get an API key, follow these steps:");
         Console.WriteLine("1. Go to https://platform.openai.com/signup.");
         Console.WriteLine("2. Create an account or log in.");
         Console.WriteLine("3. Navigate to the API section to generate a new API key.");
         Console.WriteLine("4. Copy the API key and use it in this application.");
         Console.WriteLine("\nPress any key to return to the main menu...");
-        Console.ReadKey(); // Wait for the user to press a key
+        Console.ReadKey();
     }
 
     private static async Task<bool> ValidateApiKey(string key)
@@ -178,7 +176,6 @@ class Program
         {
             using (StreamWriter writer = new StreamWriter(LogFilePath, true))
             {
-                // Log format: Date, State, API Key
                 writer.WriteLine($"{DateTime.Now:yyyy-MM-dd HH:mm:ss}\t{state}\t{apiKey}");
             }
         }
@@ -190,7 +187,7 @@ class Program
 
     private static void ViewLogs()
     {
-        Console.Clear(); // Clear the console
+        Console.Clear(); 
         try
         {
             if (File.Exists(LogFilePath))
@@ -214,6 +211,6 @@ class Program
         }
 
         Console.WriteLine("Press any key to return to the main menu...");
-        Console.ReadKey(); // Wait for the user to press a key
+        Console.ReadKey();
     }
 }
